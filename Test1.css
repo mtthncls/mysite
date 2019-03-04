@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Julius+Sans+One|Monoton|Roboto');
+
+body
+{
+	background-color: rgb(252, 227, 248);
+	
+}
+
+
+header
+{
+	display: flex;
+	height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	color: white;
+	font-family: Monoton;
+	font-size: 3em;
+}
+
+#Corps
+{
+	display: flex;
+}
+
+#GlobalDesc
+{
+	padding-left: 5px;
+	font-family: 'Allerta Stencil';
+	font-size: 2em;
+	color: white;
+	padding-top: 70px;
+}
+#logos
+{
+	width: 50%;
+}
+.touslogos
+{
+	height: 450px;
+	position: relative;
+}
+.logos
+{
+	list-style: none;
+	margin: 10px;
+}
+
+.logos:nth-child(1)
+{
+	position: absolute;
+	left:50px;
+	top: 30px;
+}
+
+.logos:nth-child(2)
+{
+	position: absolute;
+	left: 320px;
+	top: 80px;
+}
+
+.logos:nth-child(3)
+{
+	position: absolute;
+	left:10px;
+	bottom: 100px;
+}
+
+.logos:nth-child(4)
+{
+	position: absolute;
+	left:180px;
+	bottom: 160px;
+}
+
+.logos:nth-child(5)
+{
+	position: absolute;
+	left:330px;
+	bottom: 60px;
+}
+
+.logos:nth-child(6)
+{
+	position: absolute;
+	left:120px;
+	bottom: -40px;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-top: 50px;
+	color: white;
+}
+footer a
+{
+	color: white;
+}
+footer a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+@media screen and (max-width: 1024px)
+{
+	#Corps
+	{
+		flex-direction: column;
+		width: 100%;
+	}
+}
